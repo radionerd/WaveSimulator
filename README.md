@@ -1,4 +1,4 @@
-# Motion Simulator
+# Ship Motion Simulator
 
 ## Welcome
 
@@ -6,7 +6,7 @@ This is the repository for the Ship Motion Simulator design files
 
 The design is contained in these folders:
 
-* firmware   - Arduino .ino file and screenshot
+* firmware   - Arduino .ino source file and status screenshot
 
 * mechanical - LibreCAD drawings and templates - print the templates, glue on to mdf for cutting and drilling
 
@@ -20,13 +20,13 @@ The motion platform is controlled by an Arduino Nano mounted on the underside.
 
 The Arduino Nano USB serial connection provides optional command line control and a status screen.
 
-An optional plug in control panel provides convenient user controls using switches, potentiometers and an LED.
+An optional plug in control panel provides convenient user controls using switches, potentiometers and a status LED.
 
 ## Background
 
 The simulator was designed to approximate the pitch, roll and heave motions of a ship at sea using low cost model control servos.
 
-For a more accurate simulation consider a Stewart Plaform with six degrees of freedom using linear actuators but higher cost!
+For a more accurate simulation consider a Stewart Plaform with six degrees of freedom using linear actuators but higher cost and complexity.
 
 The design was built and tested using the following software:
 
