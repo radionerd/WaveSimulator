@@ -2,7 +2,7 @@
 
 ## Welcome
 
-This is the repository for the Motion Simulator design files
+This is the repository for the Ship Motion Simulator design files
 
 The design is contained in these folders:
 
@@ -21,6 +21,11 @@ An optional plug in control panel provides convenient user controls using switch
 
 The simulator was designed to approximate the pitch, roll and heave motions of a ship at sea using low cost model control servos.
 For a higher precision simulation consider a Stewart Plaform with six degrees of freedom using linear actuators and higher cost!
+The design was built and tested using the following software:
+  Arduino  V 1.8.9
+  EaglePCB V 8.3.1
+  LibreCAD V 2.1.2
+  Ubuntu   V18.04
 
 ## Photos and Videos
 
